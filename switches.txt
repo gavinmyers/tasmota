@@ -2,7 +2,7 @@ ButtonTopic 0;  SetOption73 1; SetOption32 20; SwitchTopic 0; SwitchMode 6;
 
 Rule1
   ON button1#state=10 DO power1 2 ENDON
-  ON button1#state=3 DO publish stat/Basement/POWER HOLD ENDON
+  ON button1#state=3 DO publish stat/Basement/POWER TOGGLE ENDON
   ON button1#state=11 DO publish stat/%Topic%/POWER DOUBLE ENDON
   ON button1#state=12 DO publish stat/%Topic%/POWER TRIPLE ENDON
   
