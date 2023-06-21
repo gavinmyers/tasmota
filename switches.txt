@@ -5,3 +5,6 @@ Rule1
   ON button1#state=3 DO publish stat/%Topic%/POWER HOLD ENDON
   ON button1#state=11 DO publish stat/%Topic%/POWER DOUBLE ENDON
   ON button1#state=12 DO publish stat/%Topic%/POWER TRIPLE ENDON
+  
+  
+{"NAME":"Markevina KS-6","GPIO":[32,1,0,1,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}
